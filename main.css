@@ -1,0 +1,114 @@
+body{
+  margin: 0px;
+  color: #555555;
+  font-size: 16px;
+  background-color: #F86739;
+}
+
+
+
+.menu{
+  height: 100px;
+}
+
+.menu .logo{
+  display: block;
+    margin: 0 auto;
+}
+.menu-item{
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.menu-item a{
+  font-size: 30px
+  color:#E800FF;
+ text-decoration: none;
+ margin: 15px;
+}
+
+
+.menu-item a.active{
+  color: #5F5F5F;
+}
+
+
+
+
+.banner{
+  background: url("images/MYF.jpg");
+  height: 1050px;
+  text-align: center;
+}
+
+  .banner .button{
+    font-size: 50px;
+    text-decoration: none;
+    color: #AD0E0E;
+    border: 15px solid #AD0E0E;
+    width: 290px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Sigmar One', cursive;
+    padding: 18px;
+}
+  .banner .button a{
+    font-size: 55px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 15px;
+  }
+  .banner .button a.active{
+    color: #502E2E;
+  }
+
+
+.banner-text{
+  padding-top: 180px;
+}
+
+.banner-text h1{
+  color: #EBE9E9;
+  font-family: 'Muli', sans-serif;
+  font-size: 60px;
+  text-shadow: 2px  2px 4px #000000;
+  margin-top: 5px;
+}
+
+.banner-text h4{
+  color: #EBE9E9;
+  font-family: 'Muli', sans-serif;
+  margin-top: 5px;
+}
+.content{
+  padding: 80px 60px;
+  text-align: center;
+  }
+  .content p{
+    width: 870px;
+    margin: auto;
+  }
+  .content hr{
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20;
+  }
+
+@@media only screen and (max-width: 600px){
+  .menu{
+    text-align: center;
+  }
+  .menu-item {
+    display: none;
+  }
+  .banner-text h1{
+    font-size: 30px;
+  }
+}
+.logo{
+  text-align: center;
+
+}
